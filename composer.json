@@ -1,0 +1,19 @@
+{
+  "name": "bc/bincode",
+  "description": "бложик",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "theinpu",
+      "email": "theinpu@gmail.com"
+    }
+  ],
+  "require": {
+    "bc/cmf": "*",
+    "bc/pdo": "*"
+  },
+  "require-dev": {
+    "bc/generator": "*"
+  }
+}
