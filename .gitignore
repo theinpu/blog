@@ -2,3 +2,7 @@
 config/*.php
 !config/*.dist
 composer.lock
+vendor/
+logs/
+gen/
+!dummy

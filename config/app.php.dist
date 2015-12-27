@@ -4,3 +4,9 @@
  * Date: 27.12.2015
  * Time: 1:50
  */
+
+return array(
+    'develop'        => false,
+    'templates.path' => 'templates',
+    'logs'           => 'logs/app.log'
+);

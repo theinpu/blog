@@ -5,4 +5,11 @@
  * Time: 1:48
  */
 
-echo "soon";
+date_default_timezone_set('Europe/Moscow');
+
+require_once __DIR__.'/../vendor/autoload.php';
+
+chdir(__DIR__.'/../');
+
+$app = new \bc\blog\BlogApplication();
+$app->run();

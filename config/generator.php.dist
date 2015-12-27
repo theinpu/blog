@@ -1,0 +1,11 @@
+<?php
+/**
+ * User: anubis
+ * Date: 27.12.2015
+ * Time: 3:30
+ */
+
+return array(
+    'def.path' => __DIR__.'/../def/',
+    'save.path' => __DIR__.'/../gen/'
+);

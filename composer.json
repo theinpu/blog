@@ -11,9 +11,15 @@
   ],
   "require": {
     "bc/cmf": "*",
-    "bc/pdo": "*"
+    "bc/pdo": "*",
+    "monolog/monolog": "*"
   },
   "require-dev": {
     "bc/generator": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "bc\\": "."
+    }
   }
 }

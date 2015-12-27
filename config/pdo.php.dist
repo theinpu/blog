@@ -1,0 +1,8 @@
+<?php
+
+return array(
+    'dsn' => 'mysql:dbname=databaseName;host=localhost',
+    'user' => '',
+    'password' => '',
+    'encoding' => 'utf8'
+);

@@ -1,0 +1,36 @@
+name: Post
+class: \bc\blog\model\Post
+parent: \bc\model\Model
+parentDescription: model.yaml
+table: posts
+fields:
+    title:
+        type: string
+        sqlType: 'VARCHAR(200)'
+        flags: ['NN']
+    subTitle:
+        type: string
+        sqlType: TEXT
+        flags: []
+    text:
+        type: string
+        sqlType: TEXT
+        flags: [NN]
+    createTime:
+        type: int
+        sqlType: 'INT(11)'
+        flags: [NN, RO]
+        set:
+            change: false
+    status:
+        type: int
+        sqlType: INT(1)
+        flags: [NN]
+        default: 0
+    canComment:
+        type: bool
+        sqlType: 'INT(1)'
+        default: 1
+paths:
+    base: model
+    dataMap: ../dataMaps
